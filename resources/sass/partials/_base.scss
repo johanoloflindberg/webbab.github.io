@@ -1,0 +1,69 @@
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    padding: 0;
+    margin-bottom: 12px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.mtb {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $screen-md-min) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width:100%;
+}
+::-moz-selection  {
+    color: #fff;
+    text-shadow:none;
+    background:#2B2E31;
+}
+::selection {
+    color: #fff;
+    text-shadow:none;
+    background:#2B2E31;
+}
+
+hr {
+    border: 1px solid #5a5a5a;
+    width: 120px;
+}
